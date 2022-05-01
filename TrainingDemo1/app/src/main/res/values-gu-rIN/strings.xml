@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">હેલો ખાલી ટુકડો</string>
+    <string name="app_name">તાલીમ ડેમો1</string>
+    <string name="hello">નમસ્તે</string>
+    <string name="change_language">ભાષા બદલો</string>
+</resources>

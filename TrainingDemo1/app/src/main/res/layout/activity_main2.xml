@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ClassWork"
+            android:textSize="50dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textStyle="bold|italic"
+            android:textColor="@color/purple_500"
+            ></TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="bluetooth"
+            android:textAllCaps="true"
+            android:layout_weight="1"
+            android:id="@+id/bluetoothbtn"
+            android:layout_margin="10dp"
+            android:background="@drawable/btnbackground"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Intent"
+            android:textAllCaps="true"
+            android:layout_weight="1"
+            android:id="@+id/intentbtn"
+            android:layout_margin="10dp"
+            android:background="@drawable/btnbackground"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="linearlayout"
+            android:textAllCaps="true"
+            android:layout_weight="1"
+            android:id="@+id/linearlayoutbtn"
+            android:layout_margin="10dp"
+            android:background="@drawable/btnbackground"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="List view"
+            android:textAllCaps="true"
+            android:layout_weight="1"
+            android:id="@+id/listviewbtn"
+            android:layout_margin="10dp"
+            android:background="@drawable/btnbackground"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Activity Log"
+            android:textAllCaps="true"
+            android:layout_weight="1"
+            android:id="@+id/logbtn"
+            android:layout_margin="10dp"
+            android:background="@drawable/btnbackground"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Main Activity"
+            android:textAllCaps="true"
+            android:layout_weight="1"
+            android:id="@+id/mainbtn"
+            android:layout_margin="10dp"
+            android:background="@drawable/btnbackground"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Maps"
+            android:textAllCaps="true"
+            android:layout_weight="1"
+            android:id="@+id/mapbtn"
+            android:layout_margin="10dp"
+            android:background="@drawable/btnbackground"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Multi Lang"
+            android:textAllCaps="true"
+            android:layout_weight="1"
+            android:id="@+id/multilangbtn"
+            android:layout_margin="10dp"
+            android:background="@drawable/btnbackground"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Proximity"
+            android:textAllCaps="true"
+            android:layout_weight="1"
+            android:id="@+id/proximitybtn"
+            android:layout_margin="10dp"
+            android:background="@drawable/btnbackground"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Recycler view"
+            android:textAllCaps="true"
+            android:layout_weight="1"
+            android:id="@+id/recycleviewbbtn"
+            android:layout_margin="10dp"
+            android:background="@drawable/btnbackground"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="sensor"
+            android:textAllCaps="true"
+            android:layout_weight="1"
+            android:id="@+id/sensorbtn"
+            android:layout_margin="10dp"
+            android:background="@drawable/btnbackground"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Shared Preferences"
+            android:textAllCaps="true"
+            android:layout_weight="1"
+            android:id="@+id/sharedprerencesbtn"
+            android:layout_margin="10dp"
+            android:background="@drawable/btnbackground"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Spinner"
+            android:textAllCaps="true"
+            android:layout_weight="1"
+            android:id="@+id/spinnerbtn"
+            android:layout_margin="10dp"
+            android:background="@drawable/btnbackground"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>
